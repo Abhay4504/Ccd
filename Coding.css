@@ -1,0 +1,524 @@
+
+ul 
+{   
+    list-style-type: none;   
+    font-family: Arial Black;
+    background-image: linear-gradient(to right,turquoise,pink,turquoise);
+    overflow: hidden;
+    position: relative; 
+    
+}
+
+li a
+{  
+    display: inline-block;
+    float:left;
+    padding: 8px 34px;
+    padding-left: 20px;   
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover 
+{
+    border-radius: 5px;
+    background-image: linear-gradient(to right,gray,skyblue,dimgray);
+    color:White;    
+}
+
+.nav1
+{
+    position:sticky;
+    TOP:0PX;
+}
+
+.image1
+{
+    
+    width: 33.1%;
+    height: auto;
+}
+
+.body-content
+{
+    height: 50%;
+    width: 100%;
+    text-align: justify;
+    
+}
+
+.icon
+{
+    
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.Foot
+{
+    background-image: linear-gradient(to bottom,gray,#008080);
+
+    /*background-color:#fafafa;*/
+    color: black;
+    text-align: center;
+    height: auto;
+    padding-top: 30px;
+}
+
+.footer
+{
+    color: white;
+    text-decoration: none;
+
+}
+
+.copy-foot
+{
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+/* Order-Online */
+
+.Main
+{
+    background-image: linear-gradient(to right,#C48797,#008080);
+}
+
+.Coffee
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Cake
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.Shake
+{
+    padding-top: 50px;
+}
+
+.price-color
+{
+    color: #ffffff;
+}
+
+/*-------Coffee-Div-------*/
+
+.Coffee1
+{  
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    margin-left: 50px;
+    
+    
+}
+
+.Coffee2
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.Coffee3
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.Coffee4
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.Coffee5
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+
+/*------Cake-Div------*/
+
+.cake1
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.cake2
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.cake3
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.cake4
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.cake5
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+/*-------Shake-Div-------*/
+
+.shake1
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    margin-left: 50px;
+}
+.shake2
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.shake3
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.shake4
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.shake5
+{
+    border-radius: 5%;
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.Co
+{
+    text-align: center;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Co a:hover
+{
+    background-image: linear-gradient(to right,darkgrey,darkcyan);
+    width: 100px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+/*Link in File Hot-Classic,Chillers,Delights and Tooth*/
+
+.classic
+{
+    background-image: linear-gradient(to right,dimgray,skyblue,dimgray);
+}
+
+.classic-image
+{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.classic-image1
+{
+    width: 100%;
+    height: auto;
+}
+
+.icon-content
+{    
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Foot-content
+{
+    background-image: linear-gradient(to bottom,dimgray,#9FA867);   
+    color: black;
+    text-align: center;
+    height: auto;
+    padding-top: 30px;
+}
+
+.footer-content
+{
+    color: white;
+    text-decoration: none;
+}
+
+.copy-foot-right
+{
+    color: #ffffff;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

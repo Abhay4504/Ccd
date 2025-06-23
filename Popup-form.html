@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Popup-Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/296774b05b.js" crossorigin="anonymous"></script>
+        <style>            
+            body
+            {
+                font-family: Arial, Helvetica, sans-serif;
+
+                background-image: linear-gradient(to right,dimgray,skyblue,dimgray);
+            }
+            
+            *
+            {
+                box-sizing: border-box;
+            }
+                    
+            /*the popup form - hidden by default*/
+            .form-popup
+            {
+                /*display: none;*/
+                position: fixed;
+                bottom: 20px;
+                right: 500px;
+                border-radius: 10px;
+                border: 3px solid #9F000F;  
+                z-index: -1;              
+            }
+
+            /*Add style to the form container*/
+            .form-container
+            {
+                
+                max-width: 350px;  
+                padding: 20px;
+                background-color: #9F000F;
+                opacity: 0.9; 
+            }
+
+            /*Full-width input fields*/
+            .form-container input[type=email], .form-container input[type=password]
+            {
+                width: 100%;
+                padding: 8px;
+                margin: 12px 0 0 0;
+                border-radius: 10px;
+                border: solid 2px white;
+                background-color: #9F000F;
+                color: white;
+            }
+
+            /*When the inputs get focus, do something*/
+            .form-container input[type=email]:focus, .form-container input[type=password]:focus
+            {
+                background-color: #9F000F;
+                outline: none;
+            }
+
+            /*Set a style for Submit/Login Button*/
+            .btn
+            {
+                border-radius: 10px;
+                border: solid 2px rgb(212, 211, 211);
+                background-color: white;
+                color: #9F000F;
+                padding: 8px;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                margin-bottom: 5px;
+                
+            }
+
+            /*Add Red background color to the Cancel Button*/
+            .cancel
+            {
+                background-color: #800517;
+                color:white;
+                width: 11%;
+                border-radius: 100%;
+            }
+
+            .f_pass
+            {
+                text-align: right;
+                color: gray;
+                text-decoration: none;
+            }
+            
+            #rit
+            {
+                text-align: right;
+                color: white;
+            }    
+
+            .icons
+            {
+                text-align: center;
+                
+            }
+            .icon
+            {
+                color:white;
+                text-decoration: none;
+            }
+
+            .input_data,::placeholder
+            {
+                text-align: center;
+                color:white;
+            }
+
+        </style>
+    </head>
+<body>
+    
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container" id="rit">
+            <button type="button" class="btn cancel" onclick="closeForm()"><b>X</b></button>
+            <center>
+                <h1>LOGIN</h1>
+                <h4>To create your profile</h4>
+            </center>
+                        
+            <input type="email" placeholder="Email ID/Phone No" name="Em" class="input_data" autofocus>
+            <input type="password" placeholder="Password" name="Psw" class="input_data">
+            <h5 class="f_pass"><a href="#" class="f_pass">Forgot Password?</a></h5>
+            <input type="submit" value="Submit" class="btn"> 
+                <div class="icons">
+                    <hr>
+                        <h5>Login width &nbsp;&nbsp;&nbsp;&nbsp;
+                            <font size="5">
+                                <a href="#" class="icon"><i class="fa-brands fa-facebook-square"></i></a>&nbsp;&nbsp;
+                                <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>&nbsp;&nbsp;
+                                <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
+                            </font>
+                        </h5>
+                        <h4>
+                            <font size="2" color="gray">
+                                Don't have and account?
+                            </font><a href="#" class="icon">Sign Up</a>
+                        </h4> 
+                    <hr>
+                        <h5>
+                            <a href="#" class="icon">DOWNLOAD</a>
+                            <font color="#B6B6B4"> THE MOBILE APP TODAY</font>
+                        </h5>
+                </div>
+                    
+        </form>
+    </div>
+    <script>
+        function closeForm()
+        {
+            document.getElementById("myForm").style.display="none";    
+        }
+    </Script>
+</body>
+
+</html>
